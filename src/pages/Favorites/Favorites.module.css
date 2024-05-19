@@ -1,6 +1,12 @@
-#h1Favorites {
+.h1Favorites {
     position: absolute;
     top: 0;
+}
+
+.h3Favorites {
+    position: absolute;
+    top: 70px;
+    color: #f1f1f1;
 }
 
 .divFlex {

@@ -14,7 +14,8 @@ export function Favorites() {
             <Header />
             <Banner image={"favoritos"} />
             <Container>
-                <h1 id={styles.h1Favorites}>Meus favoritos</h1>
+                <h1 className={styles.h1Favorites}>Meus favoritos</h1>
+                { favorite == "" ? <h3 className={styles.h3Favorites}>Parece que você não tem favoritos...</h3> : "" }
                 <div className={styles.divFlex}>
                     {favorite.map(({ id }) => <Card id={id} />)}
                 </div>
