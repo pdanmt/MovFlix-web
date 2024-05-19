@@ -14,7 +14,7 @@ export function MyCarousel({ children }) {
       className={styles.swiperContainer}
       modules={[Navigation, Pagination]}
       navigation={true}
-      slidesPerView={4}
+      slidesPerView={5}
       loop={true}>
       {children}
     </Swiper>

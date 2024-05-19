@@ -5,5 +5,8 @@
 
 .divFlex {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
     flex-wrap: wrap;
 }

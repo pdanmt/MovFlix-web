@@ -1,6 +1,7 @@
 .category {
     min-width: 235px;
     max-width: 1200px;
+    justify-content: right;
     h1{
         color: #fff;
         margin: 15px 0;
