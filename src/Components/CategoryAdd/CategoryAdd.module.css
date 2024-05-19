@@ -1,0 +1,17 @@
+.category {
+    /* min-width: 220px; */
+    /* max-width: 1200px; */
+    h1{
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        /* height: 180px; */
+    }
+}

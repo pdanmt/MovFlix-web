@@ -1,0 +1,9 @@
+#h1Favorites {
+    position: absolute;
+    top: 0;
+}
+
+.divFlex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,16 @@
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 4px solid #890101;
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 650px) {
+    .footer {        
+        font-size: 10pt;
+    }
+}

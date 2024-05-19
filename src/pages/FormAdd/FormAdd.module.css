@@ -1,0 +1,59 @@
+.add {
+    width: 80vw;
+    height: 55vh;
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+        border: 3px solid #890101;
+        outline: #890101;
+        border-radius: 10px;
+        padding-left: 5px;
+
+        &:focus {
+            font-size: 9pt;
+        }
+    }
+
+    .inputCat {
+        width: 50%;
+        height: 10%;
+    }
+
+    .inputURL {
+        width: 80%;
+        height: 15%;
+    }
+    
+    select {        
+        width: 80%;
+        height: 15%;
+        border-radius: 10px;
+        border: 3px solid #890101;
+        outline: #890101;
+    }
+
+    button {
+        padding: 13px 26px;
+        background-color: #2fcc1a;
+        border: 2px solid #0a5400;
+        border-radius: 7px;
+        color: #f1f1f1;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover {
+            filter: brightness(0.8);
+        }
+    }
+
+}
+
+.h1Cards {
+    margin: 15px 0;
+}
