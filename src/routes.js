@@ -9,7 +9,7 @@ import { FormAddVideo } from "./pages/FormAdd/formAddIndex";
 export function AppRoutes() {
     return (
         <BrowserRouter>
-            {/* <FavoritesProvider> */}
+            <FavoritesProvider>
                 <Routes>
                     <Route path="/" exact element={<Home />} />
                     <Route path="/watch/:id" element={<Watch />} />
@@ -17,7 +17,7 @@ export function AppRoutes() {
                     <Route path="/add" element={<FormAddVideo />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
-            {/* </FavoritesProvider> */}
+            </FavoritesProvider>
         </BrowserRouter>
     )
 }
