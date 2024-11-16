@@ -14,7 +14,7 @@ Meu objetivo geral, ao criar o projeto, foi estudar e praticar essa tecnologia, 
 O MovFlix Web foi produzido apenas com [React](https://react.dev/).
 
 ## 🚀 Como Executar
-O projeto foi desenvolvido usando Create React App, portanto, para excutar o projeto, siga os seguintes passos:
+O projeto foi desenvolvido usando Create React App, portanto, para excutá-lo, siga os seguintes passos:
 ```bash
 $ git clone https://github.com/pdanmt/MovFlix-web
 $ cd MovFlix-web
